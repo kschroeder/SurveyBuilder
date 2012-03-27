@@ -45,6 +45,6 @@ class AuthConfiguration
 	
 	public function getActivatedAuthAdapters()
 	{
-		
+		$activeAdapters = $this->configurator->getActiveAuthAdapters();
 	}
 }
